@@ -35,6 +35,7 @@ body {
 
 .link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .title {
@@ -118,13 +119,21 @@ body {
 }
 
 .hero-btn {
-  color: inherit;
+  color: var(--white-color);
   background-color: var(--accent);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--black-color);
+  color: var(--title-text-color);
 }
 
 /* =====================================ABOUT*/
@@ -186,7 +195,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.footer-adress:hover, 
+.footer-adress:hover,
 .footer-adress:focus {
   color: var(--accent);
 }
@@ -195,11 +204,46 @@ body {
   color: var(--white-color);
 }
 
-.footer-contact:hover, 
+.footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent);
 }
 
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* =================================PORTFOLIO*/
+
+/* ==================================CONTENT */
+
+.content-btn {
+  color: var(--title-text-color);
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.content-btn:hover,
+.content-btn:focus {
+  background-color: var(--accent);
+  color: var(--white-color);
+}
+
+.content-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.content-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
